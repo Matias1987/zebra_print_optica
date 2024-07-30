@@ -1,0 +1,11 @@
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\bin\Debug\ZebraPrint.exe.config
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\bin\Debug\ZebraPrint.exe
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\bin\Debug\ZebraPrint.pdb
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\obj\Debug\ZebraPrint.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\obj\Debug\ZebraPrint.Form1.resources
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\obj\Debug\ZebraPrint.Properties.Resources.resources
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\obj\Debug\ZebraPrint.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\obj\Debug\ZebraPrint.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\obj\Debug\ZebraPrint.exe
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\obj\Debug\ZebraPrint.pdb
+C:\Users\Usuario\source\repos\ZebraPrint\ZebraPrint\obj\Debug\ZebraPrint.Settings.resources

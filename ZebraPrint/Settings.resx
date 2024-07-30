@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAplicar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnSave.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>## ZPL Commands
+
+| Command | Format | Description |
+| ------- | ------ | ----------- |
+| ^A | ^Afo,h,w,d:f.x | Use Scalable/Bitmapped Font |
+| ^A@ | ^A@o,h,w,d:f.x | Use Font Name to Call Font |
+| ^B0 | ^B0a,b,c,d,e,f,g | Aztec Bar Code Parameters |
+| ^B1 | ^B1o,e,h,f,g | Code 11 Bar Code |
+| ^B2 | ^B2o,h,f,g,e,j | Interleaved 2 of 5 Bar Code |
+| ^B3 | ^B3o,e,h,f,g | Code 39 Bar Code |
+| ^B4 | ^B4o,h,f,m | Code 49 Bar Code |
+| ^B5 | ^B5o,h,f,g | Planet Code bar code |
+| ^B7 | ^B7o,h,s,c,r,t | PDF417 Bar Code |
+| ^B8 | ^B8o,h,f,g | EAN-8 Bar Code |
+| ^B9 | ^B9,h,f,g,e | UPC-E Bar Code |
+| ^BA | ^BAo,h,f,g,e | Code 93 Bar Code |
+| ^BB | ^BBo,h,s,c,r,m | CODABLOCK Bar Code |
+| ^BC | ^BCo,h,f,g,e,m | Code 128 Bar Code (Subsets A, B, and C) |
+| ^BD | ^BDm,n,t | UPS MaxiCode Bar Code |
+| ^BE | ^BEo,h,f,g | EAN-13 Bar Code |
+| ^BF | ^BFo,h,m | MicroPDF417 Bar Code |
+| ^BI | ^BIo,h,f,g | Industrial 2 of 5 Bar Codes |
+| ^BJ | ^BJo,h,f,g | Standard 2 of 5 Bar Code |
+| ^BK | ^BKo,e,h,f,g,k,l | ANSI Codabar Bar Code |
+| ^BL | ^BLo,h,g | LOGMARS Bar Code |
+| ^BM | ^BMo,e,h,f,g,e2 | MSI Bar Code |
+| ^BO | ^BOa,b,c,d,e,f,g | Aztec Bar Code Parameters |
+| ^BP | ^BPo,e,h,f,g | Plessey Bar Code |
+| ^BQ | ^BQa,b,c,d,e | QR Code Bar Code |
+| ^BR | ^BRa,b,c,d,e,f | GS1 Databar |
+| ^BS | ^BSo,h,f,g | UPC/EAN Extensions |
+| ^BT | ^BTo,w1,r1,h1,w2,h2 | TLC39 Bar Code |
+| ^BU | ^BUo,h,f,g,e | UPC-A Bar Code |
+| ^BX | ^BXo,h,s,c,r,f,g,a | Data Matrix Bar Code |
+| ^BY | ^BYw,r,h | Bar Code Field Default |
+| ^BZ | ^BZo,h,f,g,t | POSTAL Bar Code |
+| ^CC | ^CCx or ~CCx | Change Caret (Alt. ~CC) |
+| ^CD | ^CDa or ~CDa | Change Delimiter (Alt. ~CD) |
+| ^CF | ^CFf,h,w | Change Alphanumeric Default Font |
+| ^CI | ^CIa,s1,d1,s2,d2,... | Change International Font/Encoding |
+| ^CM | ^CMa,b,c,d | Change Memory Letter Designation |
+| ^CN | ^CNa | Cut Now |
+| ^CO | ^COa,b,c | Cache On |
+| ^CP | ^CPa | Remove Label |
+| ^CT | ^CTa or ~CTa | Change Tilde (Alt. ~CT) |
+| ^CV | ^CVa | Code Validation |
+| ^CW | ^CWa,d:o.x | Font Identifier |
+| ~DB | ~DBd:o.x,a,h,w,base,space,#char,©,data | Download Bitmap Font |
+| ~DE | ~DEd:o.x,s,data | Download Encoding |
+| ^DF | ^DFd:o.x | Download Format |
+| ~DG | ~DGd:o.x,t,w,data | Download Graphics |
+| ~DN | ~DN | Abort Download Graphic |
+| ~DS | ~DSd:o.x,s,data | Download Intellifont (Scalable Font) |
+| ~DT | ~DTd:o.x,s,data | Download Bounded TrueType Font |
+| ~DU | ~DUd:o.x,s,data | Download Unbounded TrueType Font |
+| ~DY | ~DYd:f,b,x,t,w,data | Download Objects |
+| ~EG | ~EG or ^EG | Erase All Graphics (Alt. ^EG) |
+| ^FB | ^FBa,b,c,d,e | Field Block |
+| ^FC | ^FCa,b,c | Field Clock |
+| ^FD | ^FDa | Field Data |
+| ^FH | ^FHa | Field Hexadecimal Indicator |
+| ^FL | ^FL&lt;ext&gt;,&lt;base&gt;,&lt;link&gt; | Font Linking |
+| ^FM | ^FMx1,y1,x2,y2,... | Multiple Field Origin Locations |
+| ^FN | ^FN#"a" | Field Number |
+| ^FO | ^FOx,y,z | Field Origin |
+| ^FP | ^FPd,g | Field Parameter |
+| ^FR | ^FR | Field Reverse Print |
+| ^FS | ^FS | Field Separator |
+| ^FT | ^FTx,y,z | Field Typeset |
+| ^FV | ^FVa | Field Variable |
+| ^FW | ^FWr,z | Field Orientation |
+| ^FX | ^FXc | Comment |
+| ^GB | ^GBw,h,t,c,r | Graphic Box |
+| ^GC | ^GCd,t,c | Graphic Circle |
+| ^GD | ^GDw,h,t,c,o | Graphic Diagonal Line |
+| ^GE | ^GEw,h,t,c | Graphic Ellipse |
+| ^GF | ^GFa,b,c,d,data | Graphic Field |
+| ^GS | ^GSo,h,w | Graphic Symbol |
+| ~HB | ~HB | Return Battery Status |
+| ~HD | ~HD | Return Head Diagnostic |
+| ^HF | ^HFd,o,x | Return Host Format |
+| ^HG | ^HGd:o.x | Return Host Graphic |
+| ^HH | ^HH | Return Configuration Label |
+| ~HI | ~HI | Return Host Identification |
+| ~HM | ~HM | Return Host RAM Status |
+| ~HQ | ~HQquery-type | Return Host Query |
+| ~HS | ~HS | Return Host Status |
+| ~HU | ~HU | Return ZebraNet Alert Configuration |
+| ^HV | ^HV#,n,h,t,a | Return Host Verification |
+| ^HW | ^HWd:o.x | Return Host Directory List |
+| ^HY | ^HYd:o.x | Upload Graphics |
+| ^HZ | ^HZb | Display Description Information |
+| ^HZ | ^HZO,d:o.x,l | Display Description Information |
+| ^ID | ^IDd:o.x | Object Delete |
+| ^IL | ^ILd:o.x | Image Load |
+| ^IM | ^IMd:o.x | Image Move |
+| ^IS | ^ISd:o.x,p | Image Save |
+| ~JA | ~JA | Cancel All |
+| ^JB | ^JBa | Initialize Flash Memory |
+| ~JB | ~JB | Reset Optional Memory |
+| ~JC | ~JC | Set Media Sensor Calibration |
+| ~JD | ~JD | Enable Communications Diagnostics |
+| ~JE | ~JE | Disable Diagnostics |
+| ~JF | ~JFp | Set Battery Condition |
+| ~JG | ~JG | Graphing Sensor Calibration |
+| ^JH | ^JHa,b,c,d,e,f,g,h,i,j | Early Warning Settings |
+| ^JI | ^JId:o.x,b,c,d | Start Zebra BASIC Interpreter |
+| ~JI | ~JI | Start Zebra BASIC Interpreter |
+| ^JJ | ^JJa,b,c,d,e,f | Set Auxiliary Port |
+| ~JK | ~JK | Delayed Cut |
+| ~JL | ~JL | Set Label Length |
+| ^JM | ^JMn | Set Dots per Millimeter |
+| ~JN | ~JN | Head Test Fatal |
+| ~JO | ~JO | Head Test Non-Fatal |
+| ~JP | ~JP | Pause and Cancel Format |
+| ~JQ | ~JQ | Terminate Zebra BASIC Interpreter |
+| ~JR | ~JR | Power On Reset |
+| ^JS | ^JSa | Sensor Select |
+| ~JS | ~JSb | Change Backfeed Sequence |
+| ^JT | ^JT####,a,b,c | Head Test Interval |
+| ^JU | ^JUa | Configuration Update |
+| ^JW | ^JWt | Set Ribbon Tension |
+| ~JX | ~JX | Cancel Current Partially Input Format |
+| ^JZ | ^JZa | Reprint After Error |
+| ~KB | ~KB | Kill Battery (Battery Discharge Mode) |
+| ^KD | ^KDa | Select Date and Time Format (for Real Time |
+| ^KL | ^KLa | Define Language |
+| ^KN | ^KNa,b | Define Printer Name |
+| ^KP | ^KPa,b | Define Password |
+| ^KV | ^KVa,b,c,d,e | Kiosk Values |
+| ^LF | ^LF | Print Font Links |
+| ^LH | ^LHx,y | Label Home |
+| ^LL | ^LLy | Label Length |
+| ^LR | ^LRa | Label Reverse Print |
+| ^LS | ^LSa | Label Shift |
+| ^LT | ^LTx | Label Top |
+| ^MA | ^MAtype,print,threshold,frequency,units | Set Maintenance Alerts |
+| ^MC | ^MCa | Map Clear |
+| ^MD | ^MDa | Media Darkness |
+| ^MF | ^MFp,h | Media Feed |
+| ^MI | ^MItype,message | Set Maintenance Information Message |
+| ^ML | ^MLa | Maximum Label Length |
+| ^MM | ^MMa,b | Print Mode |
+| ^MN | ^MNa,b | Media Tracking |
+| ^MP | ^MPa | Mode Protection |
+| ^MT | ^MTa | Media Type |
+| ^MU | ^MUa,b,c | Set Units of Measurement |
+| ^MW | ^MWa | Modify Head Cold Warning |
+| ^NC | ^NCa | Select the Primary Network Device |
+| ~NC | ~NC### | Network Connect |
+| ^ND | ^NDa,b,c,d,e,f,g,h,i,j | Change Network Settings |
+| ^NI | ^NI### | Network ID Number |
+| ~NR | ~NR | Set All Network Printers Transparent |
+| ^NS | ^NSa,b,c,d,e,f,g,h,i | Change Wired Networking Settings |
+| ~NT | ~NT | Set Currently Connected Printer Transparent |
+| ^PA | ^PAa,b,c,d | Advanced Text Properties |
+| ^PF | ^PF# | Slew Given Number of Dot Rows |
+| ^PH | ^PH or ~PH | Slew to Home Position (Alt. ~PH) |
+| ~PL | ~PLa | Present Length Addition |
+| ^PM | ^PMa | Printing Mirror Image of Label |
+| ^PN | ^PNa | Present Now |
+| ^PO | ^POa | Print Orientation |
+| ^PP | ^PP or ~PP | Programmable Pause (Alt. ~PP) |
+| ^PQ | ^PQq,p,r,o,e | Print Quantity |
+| ~PR | ~PR | Applicator Reprint |
+| ^PR | ^PRp,s,b | Print Rate |
+| ~PS | ~PS | Print Start |
+| ^PW | ^PWa | Print Width |
+| ~RO | ~ROc | Reset Advanced Counters |
+| ^SC | ^SCa,b,c,d,e,f | Set Serial Communications |
+| ~SD | ~SD## | Set Darkness |
+| ^SE | ^SEd:o.x | Select Encoding Table |
+| ^SF | ^SFa,b | Serialization Field (with a Standard ^FD |
+| ^SI | ^SIa,b | Set Sensor Intensity |
+| ^SL | ^SLa,b | Set Mode and Language (for Real-Time Clock) |
+| ^SN | ^SNv,n,z | Serialization Data |
+| ^SO | ^SOa,b,c,d,e,f,g | Set Offset (for Real-Time Clock) |
+| ^SP | ^SP# | Start Print |
+| ^SQ | ^SQa,b,c | Halt ZebraNet Alert |
+| ^SR | ^SR#### | Set Printhead Resistance |
+| ^SS | ^SSw,m,r,l,m2,r2,a,b,c | Set Media Sensors |
+| ^ST | ^STa,b,c,d,e,f,g | Set Date and Time (for Real-Time Clock) |
+| ^SX | ^SXa,b,c,d,e,f | Set ZebraNet Alert |
+| ^SZ | ^SZa | Set ZPL Mode |
+| ~TA | ~TA### | Tear-off Adjust Position |
+| ^TB | ^TBa,b,c | Text Blocks |
+| ^TO | ^TOs:o.x,d:o.x | Transfer Object |
+| ~WC | ~WC | Print Configuration Label |
+| ^WD | ^WDd:o.x | Print Directory Label |
+| ~WQ | ~WQquery-type | Write Query |
+| ^XA | ^XA | Start Format |
+| ^XB | ^XB | Suppress Backfeed |
+| ^XF | ^XFd:o.x | Recall Format |
+| ^XG | ^XGd:o.x,mx,my | Recall Graphic |
+| ^XS | ^XSlength,threshold | Set Dynamic Media Calibration |
+| ^XZ | ^XZ | End Format |
+| ^ZZ | ^ZZt,b | Printer Sleep |
+
+
+## ZPL RFID Commands
+
+| Command | Format | Description |
+| ------- | ------ | ----------- |
+| ^HL | ^HL or ~HL | Return RFID Data Log to Host (Alt. ~HL) |
+| ^HR | ^HRa,b,c,d,e | Calibrate RFID Tag Position |
+| ^RA | ^RA#,f,r,m,b | Read AFI or DSFID Byte |
+| ^RB | ^RBn,p0,p1,p2, ..., p15 | Define EPC Data Structure |
+| ^RE | ^REt,r | Enable/Disable E.A.S. Bit |
+| ^RF | ^RFo,f,b,n,m | Read or Write RFID Format |
+| ^RI | ^RIa,b,c,d | Get RFID Tag ID |
+| ^RL | ^RLM,k,a,e,u | Lock/Unlock RFID Tag Memory |
+| ^RL | ^RLB,s,n | Lock/Unlock RFID Tag Memory |
+| ^RM | ^RMe | Enable RFID Motion |
+| ^RN | ^RNe | Detect Multiple RFID Tags in Encoding Field |
+| ^RQ | ^RQf,c,o[data] | Quick Write EPC Data and Passwords |
+| ^RR | ^RRn,a | Specify RFID Retries for a Block or Enable |
+| ^RS | ^RSt,p,v,n,e,a,c,s | Set Up RFID Parameters |
+| ^RT | ^RT#,b,n,f,r,m,s | Read RFID Tag |
+| ^RU | ^RUa,b | Read Unique RFID Chip Serialization |
+| ~RV | ~RVa | Report RFID Encoding Results |
+| ^RW | ^RWr,w,a | Set RF Power Levels for Read and Write |
+| ^RZ | ^RZp,m,l | Set RFID Tag Password and Lock Tag |
+| ^WF | ^WFr,m,w,f,b | Encode AFI or DSFID Byte |
+| ^WT | ^WTb,r,m,w,f,v | Write (Encode) Tag |
+| ^WV | ^WVe | Verify RFID Encoding Operation |
+
+
+## ZPL Wireless Commands
+
+| Command | Format | Description |
+| ------- | ------ | ----------- |
+| ^KC | ^KCa,b,c,d | Set Client Identifier (Option 61) |
+| ^NB | ^NBa | Search for Wired Print Server during |
+| ^NN | ^NNa,b,c,d,e,f | Set SNMP |
+| ^NP | ^NPa | Set Primary/Secondary Device |
+| ^NT | ^NTa,b | Set SMTP |
+| ^NW | ^NWa | Set Web Authentication Timeout Value |
+| ^WA | ^WAa,b | Set Antenna Parameters |
+| ^WE | ^WEa,b,c,d,e,f,g,h | Set WEP Mode |
+| ^WI | ^WIa,b,c,d,e,f,g,h,i | Change Wireless Network Settings |
+| ^WL | ^WLa,b,c | Set LEAP Parameters |
+| ~WL | ~WL | Print Network Configuration Label |
+| ^WP | ^WPa,b | Set Wireless Password |
+| ^WR | ^WRa,b,c,d,e | Set Transmit Rate |
+| ~WR | ~WR | Reset Wireless Radio Card and Print Server |
+| ^WS | ^WSe,o,p,h,i,j,k | Set Wireless Radio Card Values |
+| ^WX | ^WXa,... | Configure Wireless Securities |
+| ^WX | ^WX01 | Configure Wireless Securities |
+| ^WX | ^WX02,b,c,d,e,f,g,h | Configure Wireless Securities |
+| ^WX | ^WX03,b,c,d,e,f,g,h | Configure Wireless Securities |
+| ^WX | ^WX04,k | Configure Wireless Securities |
+| ^WX | ^WX05,i,j | Configure Wireless Securities |
+| ^WX | ^WX06,i,j,k | Configure Wireless Securities |
+| ^WX | ^WX07,i,j | Configure Wireless Securities |
+| ^WX | ^WX08,i,j | Configure Wireless Securities |
+| ^WX | ^WX09,n | Configure Wireless Securities |
+| ^WX | ^WX10,k | Configure Wireless Securities |
+| ^WX | ^WX11,i,j | Configure Wireless Securities |
+| ^WX | ^WX12,i,j,k | Configure Wireless Securities |
+| ^WX | ^WX13,i,j | Configure Wireless Securities |
+| ^WX | ^WX14,i,j | Configure Wireless Securities |
+| ^WX | ^WX15,i,j,l,m | Configure Wireless Securities |</value>
+  </data>
+</root>
